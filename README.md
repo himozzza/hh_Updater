@@ -1,15 +1,14 @@
 # hh_Updater
-Поднимаем свои резюме на hh.ru автоматически.
+Поднимаем свои резюме на hh.ru автоматически c Python.
 
 # Использование:
-Поместить login и passwod в файл "login.txt" и положить в папку с скриптом в формате:
+Открыть hh_Updater.py в текстовом редакторе, внизу изменить поля "Your login in hh.ru" и "Your password in hh.ru" на свои логин и пароль соответственно.
 
-login
-
-password
-
+Можно добавить в планировщик, для автоматического срабатывания скрипта.
 
 # Dependencies:
-go get -u github.com/chromedp/chromedp
+pip install selenium
 
-Бинарник в Release.
+pip install webdriver-manager
+
+В Release бинарник под Windows.
